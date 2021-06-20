@@ -6,7 +6,7 @@ export default function Todo({ todo, toggleComplete }) {
   }
   return (
     <div style={{ display: "flex" }}>
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "left" }}>
         <input type="checkbox" onClick={handleCheckBox} />
       </div>
       <div style={{ textAlign: "center" }}>
