@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.todoList{
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  list-style: none;
+}
